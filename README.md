@@ -1,3 +1,11 @@
+Pomodoro
+Habit tracker
+calender view
+SOP assit
+Automation??
+
+How to make this more business worthy
+
 # Task Planner
 
 A modular productivity web app built with Vite + React + TypeScript.
