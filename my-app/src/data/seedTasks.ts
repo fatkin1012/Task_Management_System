@@ -1,0 +1,65 @@
+import { addDays, formatISO, subDays } from 'date-fns'
+
+import type { Task } from '../types'
+
+const now = new Date()
+
+export const seedTasks: Task[] = [
+  {
+    id: 'task-1',
+    title: 'Draft weekly roadmap update',
+    description: 'Prepare highlights and blockers for Monday planning.',
+    status: 'in_progress',
+    priority: 'high',
+    dueDate: formatISO(now, { representation: 'date' }),
+    dueTime: '15:00',
+    estimatedDurationMinutes: 90,
+    category: 'Planning',
+    tags: ['team', 'roadmap'],
+    subtasks: [
+      { id: 'sub-1', title: 'Collect team updates', completed: true },
+      { id: 'sub-2', title: 'Write summary slide', completed: false },
+    ],
+    reminder: formatISO(now),
+    pinned: true,
+    createdAt: formatISO(subDays(now, 2)),
+    updatedAt: formatISO(now),
+    linkedCalendarEventId: null,
+  },
+  {
+    id: 'task-2',
+    title: 'Review Q2 budget assumptions',
+    description: 'Validate fixed cost assumptions with finance lead.',
+    status: 'waiting',
+    priority: 'urgent',
+    dueDate: formatISO(subDays(now, 1), { representation: 'date' }),
+    dueTime: '11:00',
+    estimatedDurationMinutes: 60,
+    category: 'Finance',
+    tags: ['budget'],
+    subtasks: [],
+    reminder: null,
+    pinned: false,
+    createdAt: formatISO(subDays(now, 5)),
+    updatedAt: formatISO(subDays(now, 1)),
+    linkedCalendarEventId: 'evt-seed-1',
+  },
+  {
+    id: 'task-3',
+    title: 'Outline launch blog post',
+    description: 'Create first draft and share with marketing for review.',
+    status: 'todo',
+    priority: 'medium',
+    dueDate: formatISO(addDays(now, 3), { representation: 'date' }),
+    dueTime: null,
+    estimatedDurationMinutes: 120,
+    category: 'Marketing',
+    tags: ['launch', 'content'],
+    subtasks: [],
+    reminder: null,
+    pinned: false,
+    createdAt: formatISO(subDays(now, 1)),
+    updatedAt: formatISO(subDays(now, 1)),
+    linkedCalendarEventId: null,
+  },
+]
