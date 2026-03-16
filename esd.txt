@@ -1,0 +1,659 @@
+可以，我先幫你把網上找到、跟 EMSD 的 Engineering Graduate／見習工程師／工程類 summer intern 面試（尤其 group interview）有關的資料，按「直接相關」和「旁證／背景資料」分開列出。
+
+先提醒：以下很多是討論區／Glassdoor／社交媒體內容，屬個人分享或匿名留言，未必完全準確；但它們對你了解 EMSD 面試流程和題型仍然有參考價值。官方頁面則主要提供項目背景、培訓架構和 internship/EGTS 資訊，一般不會寫明 group interview 詳情。 [lihkg.com], [glassdoor.com.hk], [emsd.gov.hk], [emsd.gov.hk]
+
+
+一、直接提到 EMSD Engineering Graduate / Group Interview 的資料
+1) LIHKG：「有冇人email 收到EMSD 見習工程師 既 interview ?」
+
+這條帖最直接，明確提到 “Electronics/Information Engineering Graduate (Group Interview)”，並出現了具體日期 16/3 朝早 的說法。 [lihkg.com]
+同一帖後續留言有人分享，group interview 形式包括「1分鐘 self-introduction + group discussion」。 [lihkg.com]
+也有人形容它很像 DSE speaking，流程大概是 5 分鐘準備、24 分鐘討論，而且是全英文。 [lihkg.com]
+另有留言指題目偏 general，重點是主動發言。 [lihkg.com]
+到該帖第 2 頁，2025 年的留言再補充：有人問 second interview 要準備什麼，有回覆說 會有 written test，題目與建造業相關。 [lihkg.com]
+連結： LIHKG 第1頁 / LIHKG 第2頁 [lihkg.com], [lihkg.com]
+
+
+2) Glassdoor：EMSD Graduate Engineer interview 総頁
+
+Glassdoor 有一個專門的 “Electrical and Mechanical Service Department Graduate Engineer Interview Questions” 頁面，顯示有 10 條 Graduate Engineer 面試評價／問題。 [glassdoor.com.hk]
+這類頁面通常可看到受訪者分享的流程、題目、輪次和難度，是最值得逐條挖的來源之一。 [glassdoor.com.hk]
+連結： Glassdoor Graduate Engineer Interviews [glassdoor.com.hk]
+
+
+3) Glassdoor 單題頁：「1st round traffic connection between Hong Kong and China; 2nd round technical question and EMSD structure」
+
+這條個別面試題目頁提到：第一輪題目與「香港與中國之間的交通連接」有關，第二輪則有 technical questions 以及 EMSD structure。 [glassdoor.com]
+這很像 首輪 group discussion / policy discussion + 次輪 technical / department knowledge 的組合。 [glassdoor.com]
+連結： Glassdoor individual question 1 [glassdoor.com]
+https://www.glassdoor.com.hk/Interview/Electrical-and-Mechanical-Service-Department-Graduate-Engineer-Interview-Questions-EI_IE751966.0,44_KO45,62.htm
+
+4) Glassdoor 單題頁：自我介紹、FYP、BIM、internship experience、contractor…
+
+另一條 Graduate Engineer 題目頁列出一些頗具代表性的問題：
+
+Introduce yourself
+What’s your FYP
+Challenge your FYP standpoint / defend it confidently
+What’s BIM
+Internship experience
+Contractor …（片段被截斷，但可見是工作／行業理解相關） [glassdoor.com.hk]
+
+
+這反映 EMSD Graduate Engineer 面試除了 group interview 外，亦可能看重：學術項目、工程數碼化（如 BIM）、實習經驗、以及你如何 defend 自己觀點。 [glassdoor.com.hk]
+連結： Glassdoor individual question 2 [glassdoor.com.hk]
+
+
+5) Glassdoor 單題頁：「Why do u want to work in EMSD?」
+
+另一條頁面直接列出問題：“Why do u want to work in EMSD?”，這幾乎可視為必備題。 [glassdoor.com.hk]
+連結： Glassdoor individual question 3 [glassdoor.com.hk]
+
+
+6) Glassdoor：EMSD 整體面試頁
+
+Glassdoor 另一個整體頁面顯示 EMSD 全公司層面有 38–39 條 interview questions / reviews，未必全部都是 Graduate Engineer，但你可以在裡面找出與 engineering / trainee / graduate 有關的條目。 [glassdoor.com], [glassdoor.com.hk]
+連結： Glassdoor all EMSD interviews [glassdoor.com.hk]
+
+
+二、跟 EMSD summer intern / internship interview 直接相關的資料
+7) LIHKG：「2017 Summer Intern 討論區 (5)」內的 EMSD intern interview 討論
+
+這條帖裡明確有人說：“Emsd intern interview 出咗啦，有冇巴打知道大概 in 啲咩？”，表示當年 EMSD internship 的確有 interview。 [lihkg.com]
+帖內還有人提到：以前做過 E&M consultant 大半年、有 professor nomination、成績加分 等背景，顯示 EMSD intern 也會看過往經驗／學術背景。 [lihkg.com]
+有留言推測 EMSD intern 工作或考核會接觸 BIM、BMS、energy efficient 這類題材，因為那些是 EMSD 新 project 常見方向。 [lihkg.com]
+同帖還有一句值得留意：“second in 冇記錯應該係 2–3 個人一個位”，即 second interview 競爭可能很激烈。 [lihkg.com]
+連結： LIHKG 2017 Summer Intern thread [lihkg.com]
+
+
+8) LIHKG：「2023工程狗internship討論區」
+
+這條不是 EMSD 專帖，但明確有人問：“其實做政府 BD, EMSD, 水記嗰啲，intern 有咩做？”，並討論政府類 engineering internship offer / timing / interview 是否 tough。 [lihkg.com]
+對你而言，這可作為同類型政府工程 internship 面試氛圍的旁證。 [lihkg.com]
+連結： LIHKG 2023 工程狗 internship 討論區 [lihkg.com]
+
+
+9) Glassdoor：EMSD intern review
+
+Glassdoor 有一則標題是 “EMSD intern” 的員工評價，片段內容只有 “can have lots of free time”，不是 interview 細節，但至少證明 EMSD intern 類別在 Glassdoor 上是有紀錄的。 [glassdoor.com.hk]
+連結： Glassdoor EMSD intern review [glassdoor.com.hk]
+
+
+三、官方頁面／招聘 talk：沒有 group interview 題目，但可用來反推會問什麼
+10) EMSD 官方：Engineering Graduate Training Scheme (EGTS)
+
+官方 EGTS 頁面列出 EMSD 的 Scheme “A” training 涵蓋 Biomedical、Building Services、Electrical、Electronics、Information、Mechanical 六個 discipline，並強調 job rotations、comprehensive training、career ladder 等。 [emsd.gov.hk], [emsd.gov.hk]
+這類官方描述很可能反映面試常問的方向，例如：
+
+你為什麼想進 EMSD？
+你對 EMSD 六大 discipline / training arrangement / career path 認識多少？
+你是否適合 public service / rotation / teamwork / leadership development？ [emsd.gov.hk], [emsd.gov.hk]
+
+
+連結： EMSD EGTS (EN) / EMSD EGTS (ZH) [emsd.gov.hk], [emsd.gov.hk]
+
+
+11) EMSD 官方：Summer Interns
+
+EMSD 官方 summer interns 頁面確認，EMSD 有 Post-Secondary Student Summer Internship Programme & Vacation Training Scheme，但未公開 interview 流程細節。 [emsd.gov.hk], [emsd.gov.hk]
+連結： EMSD Summer Interns (EN) / EMSD Summer Interns (ZH) [emsd.gov.hk], [emsd.gov.hk]
+
+
+12) HKUST IEI Facebook：EMSD Recruitment Talk（有提到 interview tips）
+
+HKUST 的 Center for Industry Engagement & Internship 在 2023 舉辦 EMSD recruitment talk，內容包括 Introduction to EGTS 及多個 EMSD 項目分享。 [facebook.com]
+其後的回顧帖明確提到：EMSD representatives / alumni 有分享 “useful tips … on how to ace the interviews in the recruitment process”，並強調需要兼備 technical skills + interpersonal skills。 [facebook.com]
+雖然沒有直接公開 interview Q&A，但這是一個很強的旁證：EMSD 面試不只看 technical，亦非常看重溝通和人際互動。 [facebook.com]
+連結： HKUST IEI recruitment talk post / HKUST IEI throwback post [facebook.com], [facebook.com]
+
+
+13) IMechE Hong Kong Branch Facebook：Career Talk – EMSD & HD Engineering Graduate Training Scheme
+
+IMechE HK Branch 在 2022 舉辦 career talk，主題包括 Internship and Engineering Graduate programme 以及 career prospect。 [facebook.com]
+這不是面試經驗帖，但如果你之後想找 EMSD alumni 的講法，這類 talk 的講義／活動可能有價值。 [facebook.com]
+連結： IMechE HK Branch career talk [facebook.com]
+
+
+四、較間接但仍有參考價值的資料
+14) Indeed：EMSD Interview Questions & Answers
+
+Indeed 的 EMSD interview 頁面顯示，根據少量訪談樣本，interview experience 偏 favourable、difficulty 偏 difficult、process length 約一個月。 [hk.indeed.com]
+它沒有公開具體題目，但可作為整體 interview 難度／時長的旁證。 [hk.indeed.com]
+連結： Indeed EMSD interviews [hk.indeed.com]
+
+
+15) Blogger：政府 BS 工程師面試分享（提到 EMSD）
+
+這篇不是 EGTS / graduate interview，而是較高級的 BS engineer 面試分享；但它有直接提到 EMSD / Housing Department 會請持牌 BS engineer，並詳細列出 technical questions。 [elvisshari...ogspot.com]
+因此它可作為 EMSD 技術面試風格 的補充參考，例如 EMSD 偏重：
+
+renewable energy
+lighting
+chiller design
+fire false alarm handling
+hospital-related systems。 [elvisshari...ogspot.com]
+
+
+連結： BSE Sharing blog [elvisshari...ogspot.com]
+
+
+五、目前我幫你篩完之後，最值得優先看的「核心來源」
+如果你想最有效率，先看這幾個就夠：
+
+
+LIHKG「有冇人email 收到EMSD 見習工程師 既 interview ?」
+→ 最直接講到 group interview 流程、語言、時間、general topic、second in written test。 [lihkg.com], [lihkg.com]
+
+
+Glassdoor Graduate Engineer interview 總頁 + 單題頁
+→ 最容易提煉出 常見問題：self intro、FYP、BIM、internship、why EMSD、EMSD structure、technical questions。 [glassdoor.com.hk], [glassdoor.com], [glassdoor.com.hk], [glassdoor.com.hk]
+
+
+LIHKG 2017 Summer Intern thread
+→ 如果你也想看 工程類 internship，這個最貼近 EMSD intern interview。 [lihkg.com]
+
+
+HKUST IEI recruitment talk / alumni sharing
+→ 幫你理解 EMSD 想要怎樣的人，以及 interview 除 technical 外還重視什麼。 [facebook.com], [facebook.com]
+
+
+
+六、我先幫你做一個「目前找到的內容快照」
+目前可見的高概率訊息（先不當作官方結論）
+
+首輪可能有 group interview / group discussion。 [lihkg.com], [glassdoor.com]
+形式可能是 1 分鐘 self-intro + group discussion。 [lihkg.com]
+曾有案例是 5 分鐘準備、24 分鐘全英討論。 [lihkg.com]
+題目可能很 general / 時事 / policy-oriented。 [lihkg.com], [glassdoor.com]
+之後可能有 second in + written test（建造業相關）。 [lihkg.com]
+個人面試題常見：Why EMSD、FYP、BIM、internship、EMSD structure、technical questions。 [glassdoor.com], [glassdoor.com.hk], [glassdoor.com.hk]
+
+
+如果你想，我下一步可以直接幫你做以下其中一個：
+
+把這些來源逐條整理成「面試內容摘要表」（來源 / 年份 / 對象 / 提到的流程 / 題目）
+根據以上來源，幫你重建一個最可能的 EMSD Engineering Graduate group interview 流程
+直接幫你準備：自我介紹 + group discussion 常見題目 + second in / written test 準備清單
+
+如果你願意，我下一步就幫你做 「來源摘要表 + 高頻題庫」。
+SourcesProvide your feedback on BizChatYou said: 根據上面的結果，group interview有可能會出現AI/robotics, sustainability, hong kong current issue, 幫我推測/預判一下有可能會出現的問題，然後列出20個可能的題目Copilot said: CopilotReasoning completed in 8 steps可以。基於你上面搵到的資料，我會用以下邏輯去推測／預判 EMSD Engineering Graduate group interview 可能出現的題目：
+
+Group interview 題目偏 general / 時事 / discussion 型，而且曾有人形容似 DSE speaking、全英、先 1 分鐘 self-intro 再做 group discussion。 [buildingsmart.org], [bestpracti...msd.gov.hk]
+Glassdoor 顯示 第一輪可能會出 current issue / policy 類題目（例如香港與中國交通連接），第二輪才較 technical。 [openbim-kn...gebase.org]
+EMSD 自身近年重點非常清楚：AI、smart city、BIM / BIM-AM、predictive maintenance、MiMEP、robotics、district cooling、energy efficiency、decarbonisation。 [emsd.gov.hk], [5yearplan....msd.gov.hk], [matterport.com], [inno.emsd.gov.hk], [emsd.gov.hk], [emsd.gov.hk]
+香港近年的政策重點亦集中在 AI 應用、數字政府、smart city、可持續發展、節能減碳、新型工業化。 [policyaddress.gov.hk], [budget.gov.hk], [digitalpolicy.gov.hk], [info.gov.hk]
+
+所以，以下 20 題我會視為高機率練習題。這些不是 leaked 題目，而是根據 EMSD 近年方向 + 網上面試分享 + 香港政策脈絡做的合理預判。 [buildingsmart.org], [openbim-kn...gebase.org], [emsd.gov.hk], [policyaddress.gov.hk]
+
+我預判最可能出現的 20 個題目
+A. AI / Robotics 類（高機率）
+1) Should Hong Kong government departments accelerate the use of AI in public services? Which areas should be prioritised first?
+這題很合理，因為香港近年政策明確把 AI 作為核心產業與應用方向，EMSD 本身亦已在 AI assistant、設備診斷、智能監測等方面有實際應用。 [policyaddress.gov.hk], [budget.gov.hk], [emsd.gov.hk]
+2) How can AI improve building operation and maintenance in government buildings?
+EMSD 本身已做 AI chiller optimisation、semantic AI、BIM-AM、fault diagnosis，這題非常貼近 EMSD 日常業務。 [teslacad.co.uk], [inno.emsd.gov.hk], [emsd.gov.hk]
+3) Should EMSD adopt more robotics and drones for inspection and maintenance? Why or why not?
+EMSD InnoPortal 已把 Drones and Robotics 列為專題頁，並有大量 wish 涉及巡檢、清潔、密閉空間、機場燈具、隧道等場景。 [inno.emsd.gov.hk], [inno.emsd.gov.hk], [emsd.gov.hk]
+4) What are the benefits and risks of using robots in high-risk maintenance environments?
+EMSD 年報提到 hydraulic explosion-proof robot、airfield lighting cleaning robot、real-time drone surveillance 等，這題可同時考你安全、效率、成本和人機協作思維。 [emsd.gov.hk], [emsd.gov.hk], [inno.emsd.gov.hk]
+5) Should predictive maintenance become standard practice for lifts and escalators in Hong Kong?
+EMSD recruitment talk 和 InnoPortal 都多次提到 predictive maintenance for lift installation / intelligent escalator monitoring / lift surveillance，極有可能變成 group discussion 題。 [emsd.gov.hk], [buildingsmart.org], [inno.emsd.gov.hk]
+6) How should Hong Kong balance AI innovation with privacy, data governance and safety?
+香港政府近年一方面大力推 AI，另一方面亦強調 data governance、AI safety、data sharing；這題十分符合公共部門面試邏輯。 [policyaddress.gov.hk], [digitalpolicy.gov.hk], [digitalpolicy.gov.hk]
+7) If you were EMSD, would you prioritise AI, robotics or manpower training first?
+這類題目很像 group interview 常見的「排序題」或「資源分配題」，而且 HKUST recruitment talk 提到 EMSD 既重視 technical skills，也重視 interpersonal / broader capability。 [5yearplan....msd.gov.hk], [emsd.gov.hk], [inno.emsd.gov.hk]
+
+B. Sustainability / Energy / Green Engineering 類（高機率）
+8) How can Hong Kong reduce the energy consumption of buildings more effectively?
+建築耗能與 EMSD 業務高度相關；EMSD 年報亦明確提到更新 Building Energy Code、提高標準、節能與減碳。 [emsd.gov.hk], [emsd.gov.hk]
+9) Should the government invest more in district cooling systems in new development areas?
+EMSD 與 Kai Tak / DCS 一直有關，而 district cooling 本身兼具節能、減排、規模效益和公共工程元素，很適合 group discussion。 [emsd.gov.hk], [inno.emsd.gov.hk], [emsd.gov.hk]
+10) What is the most practical way for Hong Kong to achieve decarbonisation in public facilities?
+EMSD 年報直接把 energy conservation and decarbonisation 列為重點，亦提到 AI chiller plant optimisation、renewable energy guidance、water-cooled systems。 [emsd.gov.hk], [emsd.gov.hk]
+11) Is sustainability worth the extra initial cost in government projects?
+這是一條很典型的討論題：考你能否平衡 capex vs lifecycle cost、public value、carbon reduction。EMSD 文件與年報均強調 whole-life information / asset performance / sustainability。 [emsd.gov.hk], [emsd.gov.hk], [openbim-kn...gebase.org]
+12) Should Hong Kong promote water-cooled air-conditioning systems more aggressively?
+EMSD 年報明確提及 Fresh Water Cooling Tower Scheme、water-cooled air-conditioning 的推廣及相關指引，這題非常 EMSD。 [emsd.gov.hk]
+13) With limited land and dense urban conditions, should Hong Kong still push renewable energy harder?
+EMSD 在可再生能源方面有大量 guideline、FiT 熱線及支援；這題考你如何面對香港現實限制（空間、成本、回報）與政策方向。 [emsd.gov.hk], [emsd.gov.hk]
+14) How should public engineers respond to climate change and extreme weather in E&M design?
+EMSD 年報提到香港面對 climate challenges，並以 Climate Action Plan 2050 為背景支持可持續建築與節能科技。 [emsd.gov.hk]
+
+C. Smart Construction / BIM / Digitalisation 類（很有機會）
+15) Should BIM and digital twin become standard for all major government buildings?
+EMSD 一直強推 BIM-AM，而 InnoPortal 亦出現 Digital Twin with AI + BIM + BIM-AM + iBMS 的方案；這題非常符合 EMSD 的數碼化方向。 [inno.emsd.gov.hk], [inno.emsd.gov.hk], [emsd.gov.hk]
+16) How can smart construction improve productivity and site safety in Hong Kong?
+EMSD InnoPortal 的 Smart Construction 專頁列出一系列工地安全／監測／AR／LiDAR／robot warden 願望，這題相當合理。 [matterport.com], [inno.emsd.gov.hk]
+17) Should Hong Kong adopt more MiMEP / modular / off-site construction methods in public projects?
+EMSD 與 MiMEP / MiC 關係很深，亦已用於醫院及大型設備更換工程，這題結合 productivity、safety、quality 和 sustainability。 [glassdoor.com.hk], [emsd.gov.hk], [emsd.gov.hk]
+18) What are the biggest barriers to digital transformation in Hong Kong’s engineering industry, and how can they be solved?
+這題可連到 open BIM、CDE、data interoperability、人才培訓、舊系統和組織文化；而 EMSD 已有 ISO 19650-based CDE 與 BIM automation 相關試驗。 [inno.emsd.gov.hk], [emsd.gov.hk], [openbim-kn...gebase.org]
+
+D. Hong Kong current issue / public policy 類（很可能出 general 題）
+19) How can Hong Kong become a smarter city without leaving behind the elderly or less tech-savvy groups?
+香港政府推 smart city / digital government 同時，也需要考慮 inclusiveness；EMSD 亦曾獲 age-friendly 相關認可，這題很有公共服務色彩。 [digitalpolicy.gov.hk], [emsd.gov.hk]
+20) If you were asked to recommend one engineering priority for Hong Kong in the next five years, what would it be and why?
+這條是很常見的「宏觀討論題」，可引導候選人講 AI、smart city、energy efficiency、public safety、robotics、infrastructure resilience；而這些剛好都是 EMSD 和香港政策近年的核心方向。 [policyaddress.gov.hk], [budget.gov.hk], [emsd.gov.hk], [emsd.gov.hk]
+
+我覺得「最高機率」的 Top 8 題
+如果你時間有限，我建議先練以下 8 題：
+
+Should Hong Kong government departments accelerate the use of AI in public services? [policyaddress.gov.hk], [budget.gov.hk]
+How can AI improve building operation and maintenance in government buildings? [inno.emsd.gov.hk], [emsd.gov.hk]
+Should EMSD adopt more robotics and drones for inspection and maintenance? [inno.emsd.gov.hk], [emsd.gov.hk]
+How can Hong Kong reduce the energy consumption of buildings more effectively? [emsd.gov.hk], [emsd.gov.hk]
+Should the government invest more in district cooling systems? [emsd.gov.hk], [inno.emsd.gov.hk]
+Should BIM and digital twin become standard for major government buildings? [inno.emsd.gov.hk], [inno.emsd.gov.hk]
+How can smart construction improve productivity and site safety in Hong Kong? [matterport.com], [inno.emsd.gov.hk]
+How should Hong Kong balance AI innovation with privacy and safety? [policyaddress.gov.hk], [digitalpolicy.gov.hk], [digitalpolicy.gov.hk]
+
+
+你可以點樣理解 EMSD 出題方向？
+如果把上面濃縮成一句話：
+
+EMSD 的 group interview 很大機會不是考你背 technical formula，而是看你能否就「香港公共工程／公共服務」相關的大題目，用工程師角度去分析：安全、成本、效率、可持續、創新、可行性、以及對市民的影響。 [buildingsmart.org], [openbim-kn...gebase.org], [5yearplan....msd.gov.hk], [emsd.gov.hk]
+
+
+如果你想，我下一步可以直接幫你做以下其中一個：
+
+20題逐題寫出答題方向（每題 4-5 個 points）
+模擬一場 EMSD group interview：我出題，你練答
+幫你揀最可能的 5 題，直接寫英文發言框架（適合 group discussion）
+幫你整一套「1分鐘自我介紹 + group discussion opening / agreeing / disagreeing句型」
+
+如果你要，我可以下一步直接幫你出 「20題簡短答題大綱」。
+
+可以，以下我幫你把 20 條預判題目逐題拆成「答題方向」，每題用 4 個重點 points，盡量貼近 EMSD / Engineering Graduate / group interview 的語境。
+
+先提醒：以下題目和答題方向是根據網上面試分享（如 LIHKG / Glassdoor 提到的 group discussion、general topic、technical + EMSD knowledge）以及 EMSD / 香港近年政策重點（AI、smart city、BIM、robotics、sustainability、energy efficiency）去做推測，不是官方題目。 [inno.emsd.gov.hk], [bim.cic.hk], [inno.emsd.gov.hk], [buildingsmart.us], [5yearplan....msd.gov.hk], [emsd.gov.hk]
+
+
+建議你答每條 group discussion 題目的基本框架
+你可以默記這個 4 步答題骨架：
+
+表明立場（support / partly support / conditional support）
+講 2–3 個理由（安全、效率、成本、公共利益）
+講風險或限制（成本、人才、私隱、接受度）
+提出 practical recommendation（pilot、phased approach、training、governance）
+
+這種答法特別適合 EMSD 這類 公共工程 / 公共服務 取向的題目。 [inno.emsd.gov.hk], [insights.aecom.com], [inno.emsd.gov.hk]
+
+1) Should Hong Kong government departments accelerate the use of AI in public services?
+
+立場：可以支持「加快」，但要用 application-oriented、risk-based 方式推進，而不是一窩蜂全面上 AI。香港近年政策已把 AI 視為核心發展方向，同時強調安全風險防範。 [5yearplan....msd.gov.hk], [hkengineer.org.hk]
+優先場景：可先做 高重複、數據多、風險相對可控 的範疇，例如建築運維、故障診斷、客服支援、能源優化，而不是一開始就放在高風險、直接影響公共安全的決策上。EMSD 年報已展示 AI 在 E&M maintenance、chiller fault diagnosis 等應用。 [emsd.gov.hk], [emsd.gov.hk]
+風險：要講清楚 私隱、數據質量、模型偏差、責任歸屬，因為政府做 AI 必須兼顧效率和公眾信任。香港近年亦強調 data governance、ethical AI 和 secure data flow。 [emsd.gov.hk], [emsd.gov.hk]
+建議：可主張 先 pilot，再 scale up；先 human-in-the-loop，再逐步 automation；同時配合 staff training，這樣最符合公共部門穩健推進的原則。 [hkengineer.org.hk], [5yearplan....msd.gov.hk], [insights.aecom.com]
+
+
+2) How can AI improve building operation and maintenance in government buildings?
+
+故障診斷：AI 最直接的價值是做 fault detection & diagnostics，例如分析 chillers、AHUs、電容組、升降機運行數據，提早識別異常。EMSD 已有 AI assistant、smart monitoring、AI chiller optimisation 等案例。 [emsd.gov.hk], [emsd.gov.hk], [inno.emsd.gov.hk]
+預測性維修：可把維修模式由 reactive maintenance 轉去 predictive maintenance，減少突發停機，提升系統可靠性和維修效率。這在 lifts / escalators / HVAC 都很有應用空間。 [Roadmap on...- ibse.hk], [nibs.org], [facebook.com]
+能源優化：AI 能根據負荷、天氣、使用模式做 setpoint tuning、chiller sequencing、load prediction，從而減少能源浪費。EMSD 的 AI chiller plant optimisation 就是典型例子。 [inno.emsd.gov.hk], [emsd.gov.hk]
+配合數碼平台：如果 AI 能結合 BIM / BIM-AM / iBMS / IoT，價值會更大，因為不只是看到數據，而是知道哪台設備、在什麼位置、歷史如何。EMSD InnoPortal 亦已有相關 digital twin + BIM-AM 方案。 [inno.emsd.gov.hk], [inno.emsd.gov.hk]
+
+
+3) Should EMSD adopt more robotics and drones for inspection and maintenance?
+
+立場：可以支持，而且很切合 EMSD 近年方向，因為政府已鼓勵利用 drones 和 robotics 提升 productivity、efficiency 和 safety。EMSD InnoPortal 亦把它列作專題方向。 [digitaltwinhub.co.uk], [matterport.com]
+最適合場景：可優先應用於 高風險、重複、難接近 的工序，例如密閉空間、隧道、屋頂、機場跑道燈、邊境巡查、地下設施。EMSD 年報已展示 drone surveillance、airfield lighting robot 等實例。 [digitaltwinhub.co.uk], [emsd.gov.hk], [emsd.gov.hk]
+好處：可提升 工地安全、減少人工暴露、增加檢查頻率與數據質量，尤其在夜間或偏遠場地，機械人／無人機比純人手更有效。 [digitaltwinhub.co.uk], [emsd.gov.hk]
+限制：要留意 成本、維修保養、系統可靠性、員工培訓及操作責任，所以不應「人換機」式看待，而是當作人員的增強工具。 [digitaltwinhub.co.uk], [insights.aecom.com]
+
+
+4) What are the benefits and risks of using robots in high-risk maintenance environments?
+
+最大好處是安全：把人由 爆炸、密閉、高空、惡劣環境 中抽離，減少工傷和事故風險。EMSD 已用 explosion-proof robot 及多種高風險環境智能方案作示範。 [emsd.gov.hk], [digitaltwinhub.co.uk]
+第二個好處是效率和 consistency：robot 可在相同標準下重複巡檢，並同步收集影像、感測和運行數據。 [digitaltwinhub.co.uk], [emsd.gov.hk]
+風險在於 system failure / false detection：如果感測器錯、演算法誤判或通訊中斷，反而可能造成新的安全問題，所以 critical use case 要有 backup plan。 [emsd.gov.hk], [emsd.gov.hk]
+答法建議：可主張採取 robot-first for inspection, human-in-command for final decision 的模式，既用科技，又保留工程判斷。 [emsd.gov.hk], [insights.aecom.com]
+
+
+5) Should predictive maintenance become standard practice for lifts and escalators in Hong Kong?
+
+支持理由一：公共安全。香港有大量高樓和升降機／扶手電梯，任何失效都直接影響市民安全，因此 predictive maintenance 很有公共價值。 [facebook.com], [nibs.org]
+支持理由二：減少停機與投訴。比起壞了才修，預測性維修可降低突發故障、減少乘客不便和 O&M 成本。 [nibs.org], [emsd.gov.hk]
+技術可行性：EMSD 已有 lift / escalator monitoring 相關創新方案，如 i-EMSD、i-DEMS，以及 predictive maintenance approach for lift installation 的分享。 [facebook.com], [nibs.org], [Roadmap on...- ibse.hk]
+限制與建議：可說 應逐步推行，先在高流量場所（MTR 接駁、醫院、政府大樓、商場）做 pilot，再建立標準和資產數據要求。 [facebook.com], [Roadmap on...- ibse.hk]
+
+
+6) How should Hong Kong balance AI innovation with privacy, data governance and safety?
+
+平衡點不是「揀一邊」，而是推動 AI 同時建立 clear governance、access control、audit trail、責任界線。政府政策亦強調 AI safety 與 data governance 要同步。 [5yearplan....msd.gov.hk], [emsd.gov.hk], [emsd.gov.hk]
+數據不是越多越好，而是要 data quality、data minimisation、purpose limitation，尤其公共部門處理市民資料時更要審慎。 [emsd.gov.hk], [emsd.gov.hk]
+高風險場景要 human oversight，例如安全、合規、公共資源分配等，不應完全交由 AI 自動決定。 [emsd.gov.hk], [5yearplan....msd.gov.hk]
+建議答法：你可以提出 “pilot under governance” —— 先在低風險場景驗證成效，再逐步擴大，並同步做 staff training。 [hkengineer.org.hk], [insights.aecom.com]
+
+
+7) If you were EMSD, would you prioritise AI, robotics or manpower training first?
+
+最穩陣答案通常不是只選一樣，而是說 “manpower training is the foundation, AI and robotics are multipliers.” EMSD recruitment talk 亦特別強調 technical skills + interpersonal skills。 [insights.aecom.com]
+若只能選一個 priority，可主張先投放在 training and data foundation，因為沒有懂得使用和維護系統的人，再好的 AI / robot 也無法持久。 [insights.aecom.com], [inno.emsd.gov.hk]
+第二步才是 targeted adoption：把 AI / robotics 放在有明確 ROI 和安全價值的工序，如 chillers、inspection、high-risk work。 [emsd.gov.hk], [digitaltwinhub.co.uk]
+最後形成組合：training + digital workflow + AI/robotics，這樣才是長期能力，而不是單次 gadget adoption。 [inno.emsd.gov.hk], [inno.emsd.gov.hk]
+
+
+8) How can Hong Kong reduce the energy consumption of buildings more effectively?
+
+第一方向：提升 building services efficiency，因為樓宇能源有很大部分來自 air-conditioning、lighting、pumps、controls。EMSD 亦更新了 Building Energy Code 和 audit code。 [emsd.gov.hk]
+第二方向：更多 data-driven optimisation，例如 AI chiller optimisation、continuous commissioning、sub-metering、fault analytics，而不只是靠定期 audit。 [emsd.gov.hk], [inno.emsd.gov.hk]
+第三方向：舊樓 retrofit，香港很多既有建築比新樓更值得做節能改善，因為總量大、回報高。EMSD 亦有不少 O&M / retrofit / BIM-AM 應用案例。 [inno.emsd.gov.hk], [emsd.gov.hk]
+補充政策面：可支持 public sector leading by example，先在政府樓宇做示範，帶動市場採用。 [emsd.gov.hk], [emsd.gov.hk]
+
+
+9) Should the government invest more in district cooling systems in new development areas?
+
+支持理由：DCS 在高密度新發展區有規模效益，可集中生產冷量、減少個別樓宇設備、改善能效。Kai Tak 就是本地最典型例子。 [policyaddress.gov.hk], [inno.emsd.gov.hk]
+公共利益角度：除了省電，DCS 亦可能有助降低 heat island effect、改善空氣質素及減碳。 [policyaddress.gov.hk], [emsd.gov.hk]
+限制：前期投資大、規劃期長，亦要有足夠 development density 才值得做，所以不一定適合所有地區。 [policyaddress.gov.hk], [inno.emsd.gov.hk]
+建議答法：主張 “selective expansion”—— 在北都、新發展區、醫療／體育／大型公建群集地帶優先考慮。 [policyaddress.gov.hk], [citf.cic.hk]
+
+
+10) What is the most practical way for Hong Kong to achieve decarbonisation in public facilities?
+
+最 practical 不一定是最 flashy；通常應先做 energy efficiency first，因為節能往往比新增可再生能源更快、更穩定。EMSD 年報也把 efficiency 放在核心位置。 [emsd.gov.hk], [emsd.gov.hk]
+第二步是 electrification + cleaner systems，例如更高效 chillers、水冷系統、smart controls。 [emsd.gov.hk]
+第三步才是 renewable integration，例如 PV、grid connection、FiT，但香港空間有限，所以應與 efficiency 配合。 [emsd.gov.hk]
+答題收結：可說 decarbonisation 不是單一技術，而是 standards + retrofit + data + AI optimisation + RE 的組合拳。 [emsd.gov.hk], [inno.emsd.gov.hk]
+
+
+11) Is sustainability worth the extra initial cost in government projects?
+
+立場可答「worth it if assessed by lifecycle value」，因為政府項目不應只看初始成本，還要看 運行成本、維修、碳排、公共利益。 [inno.emsd.gov.hk], [inno.emsd.gov.hk]
+長期回報：高效系統、好維護設計、數碼化資產管理，往往能在多年運行中收回成本。 [inno.emsd.gov.hk], [emsd.gov.hk]
+公共部門角色：政府可以承擔示範作用，先做市場先行者，幫 industry 建立標準和信心。 [emsd.gov.hk], [emsd.gov.hk]
+平衡講法：不是所有綠色方案都值得做，應做 cost-benefit + whole-life carbon + operational feasibility 評估。 [inno.emsd.gov.hk], [emsd.gov.hk]
+
+
+12) Should Hong Kong promote water-cooled air-conditioning systems more aggressively?
+
+支持原因：EMSD 一直推 water-cooled AC 和 Fresh Water Cooling Tower Scheme，因為相對部分 air-cooled 方案更高效。 [emsd.gov.hk]
+適用場景：對大型樓宇、醫院、商業群組、新區發展尤其有利，因為冷量需求穩定、load profile 更適合。 [emsd.gov.hk], [policyaddress.gov.hk]
+限制：要考慮水資源、冷卻塔衛生、維修管理和場地條件，因此不宜一刀切。 [emsd.gov.hk]
+建議答法：可主張 “promote where suitable, not mandate everywhere”，展現你會平衡工程現實和政策方向。 [emsd.gov.hk]
+
+
+13) With limited land and dense urban conditions, should Hong Kong still push renewable energy harder?
+
+答法可取中間立場：香港應推 renewable energy，但要承認本地 土地、屋頂、遮擋、回報率 限制，所以不能完全照搬其他城市。 [emsd.gov.hk]
+可行方向：重點不一定只是大規模 solar farm，而是 building-integrated PV、public facilities rooftop PV、grid connection facilitation。EMSD 亦有相應 guideline 和推廣資源。 [emsd.gov.hk]
+與節能配合：若只加 RE 但不先減少負荷，成效有限，因此應把 RE 與 energy efficiency 一起講。 [emsd.gov.hk], [emsd.gov.hk]
+收結：你可以說香港的策略應是 “efficiency first, renewables where feasible, data-driven operation throughout.” [emsd.gov.hk], [inno.emsd.gov.hk]
+
+
+14) How should public engineers respond to climate change and extreme weather in E&M design?
+
+首先要講 resilience：面對極端高溫、暴雨、台風，公共工程設計要不只符合最低要求，而是兼顧可靠性與服務持續性。香港 Climate Action 2050 背景下，EMSD 亦強調可持續與氣候挑戰。 [emsd.gov.hk]
+設備層面：可提到 redundancy、flood protection、heat-resistant design、backup power、smart monitoring 等。 [emsd.gov.hk], [emsd.gov.hk]
+營運層面：數碼監測與預警也很重要，因為極端天氣下「早發現、早應對」比事後補救更重要。 [emsd.gov.hk], [inno.emsd.gov.hk]
+公共工程思維：可以強調工程師不只是「滿足規範」，而是要保障公共服務持續、減少市民受影響。 [emsd.gov.hk], [emsd.gov.hk]
+
+
+15) Should BIM and digital twin become standard for all major government buildings?
+
+支持理由：BIM + digital twin 能把設計、施工、handover、運維接起來，變成一個可更新、可監測、可優化的「活模型」。 [inno.emsd.gov.hk], [inno.emsd.gov.hk]
+EMSD 實例：EMSD 已推 BIM-AM，並有數碼孿生方案把 BIM、BIM-AM、iBMS、AI 結合起來做 real-time monitoring 和 energy optimisation。 [inno.emsd.gov.hk], [inno.emsd.gov.hk]
+最大價值：不只是 3D 模型，而是支援 asset tracking、fault diagnosis、maintenance planning、energy management。 [inno.emsd.gov.hk], [inno.emsd.gov.hk]
+限制與建議：可以主張 major / high-value / high-complexity buildings 先行，例如 hospitals、sports venues、district plants，而不是所有小型項目一刀切。 [inno.emsd.gov.hk], [emsd.gov.hk]
+
+
+16) How can smart construction improve productivity and site safety in Hong Kong?
+
+核心概念：smart construction 不是單一 gadget，而是把 BIM、AR、IoT、LiDAR、robotics、site monitoring 連成一套 workflow。EMSD InnoPortal 的專題頁正是這樣。 [facebook.com], [matterport.com]
+生產力提升：透過 digital planning、prefabrication、real-time monitoring，可減少返工、縮短工期、減少現場協調時間。 [facebook.com], [digitalpolicy.gov.hk]
+安全提升：smart working at height、robot warden、intrusion detector、confined space monitoring 等都能直接降低事故風險。 [facebook.com], [digitaltwinhub.co.uk]
+答題建議：你可以加一句，香港地盤環境狹窄、人手老化，所以 smart construction 對香港特別重要。 [facebook.com], [digitalpolicy.gov.hk]
+
+
+17) Should Hong Kong adopt more MiMEP / modular / off-site construction methods in public projects?
+
+支持原因：MiMEP / off-site construction 可提升 quality control、site safety、programme certainty，尤其香港工地空間受限、人手不足，更有價值。 [digitalpolicy.gov.hk], [emsd.gov.hk]
+EMSD 已有實例：EMSD 及政府工程已用 MiMEP 做 chillers、AHUs、更換工程，並結合 BIM 提高效率。 [emsd.gov.hk], [emsd.gov.hk], [emsd.gov.hk]
+限制：要留意 早期設計協調、物流、吊運、工場 QA/QC、法規合規，因此並非所有項目都適合。 [emsd.gov.hk], [digitalpolicy.gov.hk]
+建議答法：可主張 “adopt wider, but selectively and with digital support such as BIM/open BIM/BIM-AM.” [emsd.gov.hk], [threads.net], [itib.gov.hk]
+
+
+18) What are the biggest barriers to digital transformation in Hong Kong’s engineering industry, and how can they be solved?
+
+第一個 barrier 是 data silos / inconsistent standards，不同部門、不同 contractor、不同 software 之間資料格式不一致，令數碼流程中斷。 [inno.emsd.gov.hk], [inno.emsd.gov.hk]
+第二個 barrier 是 people and culture：不是人人都準備好用 BIM、AI、open BIM、digital twin，所以 training 和 change management 很重要。 [insights.aecom.com], [inno.emsd.gov.hk]
+第三個 barrier 是 legacy systems / brownfield assets，舊樓、舊系統往往資料缺失，令 digitalisation 較新項目更困難。 [inno.emsd.gov.hk], [inno.emsd.gov.hk]
+解法：你可答 open standards + CDE + pilot projects + training + leadership support，這些正是 EMSD / BIM / openBIM 生態圈一直強調的。 [inno.emsd.gov.hk], [emsd.gov.hk], [inno.emsd.gov.hk]
+
+
+19) How can Hong Kong become a smarter city without leaving behind the elderly or less tech-savvy groups?
+
+先講 principle：smart city 不應只追求技術先進，而應是 people-centric、inclusive、outcome-based。香港數字政策文件亦強調 digital government 要帶來 convenience and benefits to the public。 [emsd.gov.hk]
+落地方法：應保留 多渠道服務，例如 app + physical counter + hotline + assisted service，而不是所有東西都 forced digital。 [emsd.gov.hk]
+工程角度：在公共設施中，智能系統應該對使用者「無感但有幫助」，例如更安全的 lifts、better indoor comfort、faster fault response，而不是增加使用門檻。 [facebook.com], [nibs.org], [emsd.gov.hk]
+答題收結：你可說真正的 smart city 是 technology that serves people, not technology that excludes people。這種講法在 public-sector interview 很加分。 [emsd.gov.hk], [bestpracti...msd.gov.hk]
+
+
+20) If you were asked to recommend one engineering priority for Hong Kong in the next five years, what would it be and why?
+
+最穩陣選項之一是「smart and sustainable building transformation」，因為香港高密度、建築耗能高、公共設施多，這個 priority 同時回應 AI、energy efficiency、decarbonisation、public service improvement。 [emsd.gov.hk], [emsd.gov.hk]
+另一個好選項是「AI-enabled infrastructure and public services」，因為香港 2025 政策和財政預算都把 AI 提到很高位置。 [5yearplan....msd.gov.hk], [hkengineer.org.hk]
+答法關鍵不是選哪一項，而是講得出 why Hong Kong / why now / why practical，例如土地有限、人手老化、氣候挑戰、公共設施複雜。 [citf.cic.hk], [emsd.gov.hk], [facebook.com]
+建議收結：你可以補一句「This priority can create public value, improve resilience, and support Hong Kong’s long-term competitiveness.」這樣會更有公共工程視角。 [citf.cic.hk], [5yearplan....msd.gov.hk]
+
+
+最後：你背答案時，不要逐字背，要背「立場模板」
+你可以為所有 group discussion 題目準備這 5 句通用句型：
+
+I generally support this idea, but it should be implemented in a gradual and risk-based manner.
+From an engineering and public-service perspective, the key considerations are safety, cost-effectiveness, and long-term value.
+The main benefit is…, but we should also recognise the limitations such as…
+A practical way forward is to start with pilot projects, collect data, and then scale up gradually.
+In short, the goal is not technology for its own sake, but better service, higher efficiency, and greater public value.
+
+這套模板對 EMSD 這類題目非常好用，因為它同時照顧到 創新、務實、公共利益 三件事
+
+------
+
+可以，如果你是準備 EMSD 的 1 分鐘自我介紹，我建議你不要講成「完整 CV」，而是講成一個 精簡版 personal pitch：
+因為根據你之前找到的資料，EMSD 的小組面試確實可能有 1 分鐘 self-introduction，而且後續個人面試常見內容包括 Introduce yourself、FYP、internship experience、What’s BIM、Why EMSD 等；另外 EMSD 官方也明確重視 對工程有熱誠、責任感、創意、團隊合作及溝通能力，招聘講座亦提到要兼備 technical skills 和 interpersonal skills。 [inno.emsd.gov.hk], [buildingsmart.us], [damassets....todesk.net], [inno.emsd.gov.hk], [insights.aecom.com]
+
+1 分鐘自我介紹建議大綱（最穩陣版本）
+結構：5 個部分
+你可以用以下順序講：
+1) 你是誰（10–12 秒）
+
+姓名
+大學 / 學科 / 畢業年份
+主修方向（例如 Electronics / Information / Electrical / Mechanical / Building Services）
+
+👉 目的：讓 panel 一開始知道你是哪個 discipline。EMSD EGTS 本身就是按不同 engineering discipline 招人。 [inno.emsd.gov.hk], [inno.emsd.gov.hk]
+
+2) 你最相關的一段經歷（15–20 秒）
+
+揀 一段最 relevant 的經歷講
+
+FYP
+internship
+capstone project
+competition / research project
+
+
+只講 1 個例子，不要講太多
+
+👉 因為 Glassdoor 分享顯示，EMSD 面試會問 FYP、internship experience、BIM 等，所以你應該預先把最能代表你的經歷濃縮成一段。 [buildingsmart.us], [damassets....todesk.net]
+
+3) 你從中學到什麼（10–15 秒）
+
+不要只講「做過什麼」，要講 你學到什麼能力
+例如：
+problem-solving
+teamwork
+communication
+data analysis
+practical engineering thinking
+safety / sustainability awareness
+
+👉 EMSD 官方強調責任感、創意、團隊合作；招聘 talk 亦特別提到 technical + interpersonal skills。 [inno.emsd.gov.hk], [insights.aecom.com]
+
+4) 為什麼想加入 EMSD（15 秒）
+這一段很關鍵，因為 Glassdoor 亦有直接出現 “Why do u want to work in EMSD?” 這條題。 [damassets....todesk.net]
+你可以從以下 3 個角度揀 1–2 個講：
+
+EMSD 結合 engineering + public service
+EMSD 重視 innovation / smart maintenance / energy efficiency / sustainability
+EMSD 有 Scheme A training / structured development / rotations
+EMSD 的工作能直接影響 public safety / reliability / quality of life
+
+👉 EMSD 官方 EGTS 頁面明確講到 training、job rotation、career ladder；EMSD 本身亦強調提供安全、可靠、節能的 E&M 環境。 [inno.emsd.gov.hk], [lihkg.com]
+
+5) 你為什麼適合（8–10 秒）
+最後一句用來收結，講：
+
+你有學習意欲
+你適合 teamwork
+你願意接受 challenge
+你想把工程知識應用到 public service
+
+👉 呢句是整個自我介紹的「落點」，幫 panel 記住你。EMSD 官方對 candidate 的描述正正包括 passion、responsibility、creativity、teamwork。 [inno.emsd.gov.hk], [inno.emsd.gov.hk]
+
+建議時間分配（1 分鐘）
+你可以照住呢個節奏：
+
+0–10 秒：基本背景
+10–30 秒：一段最 relevant 經歷
+30–40 秒：學到的能力
+40–55 秒：Why EMSD
+55–60 秒：收結
+
+
+最實用版本：一句一句應該講什麼
+你可以記住這個邏輯：
+A. Background
+
+我是誰、讀什麼、哪個 discipline
+
+B. Relevant experience
+
+我做過哪個 FYP / internship / project，最 relevant 的是什麼
+
+C. Skills gained
+
+我學到什麼（technical + teamwork + communication）
+
+D. Why EMSD
+
+我欣賞 EMSD 的 public service / innovation / structured training
+
+E. Why me
+
+我希望在 EMSD 持續學習、貢獻、成長
+
+
+中文版口語大綱（你可以先用中文整理思路）
+你可以先用中文想清楚以下 5 句，再翻譯成英文：
+
+我叫___，畢業於___大學___工程。
+我最相關的一段經歷是___，主要做過___。
+這段經歷令我學到___，例如___。
+我想加入 EMSD，因為它結合工程、創新和公共服務，而且很重視人才培訓。
+我相信自己適合這個職位，因為我樂於學習、重視團隊合作，也希望把工程知識應用在實際公共設施上。
+
+
+英文大綱模板（最推薦）
+你可以直接套這個結構：
+
+1. Greeting + Name
+Good morning, panel members. My name is ___.
+
+2. Academic background
+I recently graduated in ___ Engineering from ___ University.
+
+3. Relevant experience
+The most relevant experience for me was my final year project / internship on ___, where I was mainly involved in ___.
+
+4. Skills / takeaway
+Through this experience, I developed my interest in ___, and I also learned the importance of problem-solving, teamwork and communication.
+
+5. Why EMSD
+I am particularly interested in EMSD because it combines engineering, innovation and public service, and I am impressed by its work in areas such as ___ / its structured graduate training.
+
+6. Why me / closing
+I believe I am a suitable candidate because I am eager to learn, enjoy working in teams, and would like to contribute my engineering knowledge to public facilities and services. Thank you.
+
+如果你想講得更「似 EMSD」
+可以特意加一兩個 EMSD 味道比較重的字眼：
+
+public safety
+reliability
+energy efficiency
+innovation and technology
+smart maintenance
+sustainability
+engineering solutions for the community
+
+因為 EMSD 官方和公開分享的確經常圍繞這些主題。 [lihkg.com], [inno.emsd.gov.hk], [emsd.gov.hk], [emsd.gov.hk]
+
+你要避免的內容
+以下是 1 分鐘自我介紹常見問題，我建議你避免：
+不要：
+
+講太多 modules / GPA 細節
+把所有 internship 都逐個講
+太早講太 technical 的內容
+背稿感太重
+只講「我勤力、我守時」但冇例子
+
+要：
+
+揀 1 個最強例子
+連到 Why EMSD
+結尾有一句 why you fit
+
+
+最後濃縮版：你只要記住這條公式
+我係誰 + 我做過咩 + 我學到咩 + 點解 EMSD + 點解係我
+呢條公式最穩陣，而且正好對應到你找到的高頻面試內容：
+
+self-introduction [inno.emsd.gov.hk]
+FYP / internship / BIM [buildingsmart.us]
+Why EMSD [damassets....todesk.net]
+technical + interpersonal skills [insights.aecom.com]
+passion / responsibility / teamwork / creativity [inno.emsd.gov.hk]
+
+
+如果你想，我下一步可以直接幫你做以下其中一個：
+
+幫你寫一篇 EMSD 專用 1 分鐘英文自我介紹範本
+你提供你的學科 / FYP / internship，我幫你度身訂造版本
+我幫你出「30 秒版 / 60 秒版 / 90 秒版」三個版本
+
+如果你願意，我最建議下一步係：
+你告訴我你的學科、FYP、有冇 internship，我直接幫你寫一篇你可以背的 EMSD 版本。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
