@@ -8,6 +8,7 @@ interface TaskListViewProps {
   onSelectTask: (taskId: string) => void
   onToggleTask: (taskId: string) => void
   onDeleteTask: (taskId: string) => void
+  onDuplicateTask: (taskId: string) => void
 }
 
 export function TaskListView({
@@ -15,6 +16,7 @@ export function TaskListView({
   onSelectTask,
   onToggleTask,
   onDeleteTask,
+  onDuplicateTask,
 }: TaskListViewProps) {
   if (tasks.length === 0) {
     return (
@@ -56,6 +58,13 @@ export function TaskListView({
               <PriorityBadge priority={task.priority} />
               <button
                 type="button"
+                onClick={() => onDuplicateTask(task.id)}
+                className="rounded-lg px-2 py-1 text-xs font-medium text-slate-600 hover:bg-slate-100"
+              >
+                Duplicate
+              </button>
+              <button
+                type="button"
                 onClick={() => onDeleteTask(task.id)}
                 className="rounded-lg px-2 py-1 text-xs font-medium text-rose-600 hover:bg-rose-50"
               >
@@ -65,6 +74,9 @@ export function TaskListView({
           </div>
           <div className="mt-3 flex flex-wrap items-center gap-2 text-xs text-slate-500">
             <span className="rounded-full bg-slate-100 px-2 py-1">{task.category}</span>
+            {task.projectId ? (
+              <span className="rounded-full bg-violet-50 px-2 py-1 text-violet-700">{task.projectId}</span>
+            ) : null}
             <span>
               {task.dueDate ? format(parseISO(task.dueDate), 'MMM d, yyyy') : 'No due date'}
             </span>

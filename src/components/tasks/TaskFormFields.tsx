@@ -102,14 +102,23 @@ export function TaskFormFields({ register, errors }: TaskFormFieldsProps) {
           />
         </div>
         <div>
-          <label className="text-sm font-medium text-slate-700">Category</label>
+          <label className="text-sm font-medium text-slate-700">Category / Inbox</label>
           <input
             {...register('category')}
             className="mt-1 w-full rounded-xl border border-slate-200 px-3 py-2 text-sm outline-none focus:border-slate-400"
-            placeholder="Planning"
+            placeholder="Inbox"
           />
           <FieldError message={errors.category?.message} />
         </div>
+      </div>
+
+      <div>
+        <label className="text-sm font-medium text-slate-700">Project</label>
+        <input
+          {...register('projectId')}
+          className="mt-1 w-full rounded-xl border border-slate-200 px-3 py-2 text-sm outline-none focus:border-slate-400"
+          placeholder="Website Launch"
+        />
       </div>
 
       <div>

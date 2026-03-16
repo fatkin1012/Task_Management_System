@@ -1,68 +1,35 @@
 import { Link } from 'react-router-dom'
 
-const functionCards = [
-  {
-    title: 'Task Planner',
-    description: 'Plan, prioritize, and schedule your tasks in a smart workflow.',
-    to: '/task-planner',
-    tone: 'from-sky-500 to-cyan-400',
-  },
-  {
-    title: 'Finance Planner',
-    description: 'Track budgets and spending goals (coming soon).',
-    to: '#',
-    tone: 'from-orange-500 to-amber-400',
-  },
-  {
-    title: 'Notes Workspace',
-    description: 'Capture ideas and action notes (coming soon).',
-    to: '#',
-    tone: 'from-violet-500 to-fuchsia-400',
-  },
-  {
-    title: 'Settings',
-    description: 'Manage Google Calendar credentials and future API keys.',
-    to: '/settings',
-    tone: 'from-emerald-500 to-teal-400',
-  },
-]
+import { hubModules } from '../app/modules'
 
 export function HomePage() {
   return (
     <main className="mx-auto min-h-screen w-full max-w-[1200px] px-5 py-10 md:px-8 md:py-14">
       <header className="max-w-3xl">
         <p className="inline-block rounded-full bg-slate-900 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">
-          Productivity Hub
+          Task Planner Hub
         </p>
         <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-slate-900 md:text-6xl">
-          Grand Opening Workspace
+          Modern productivity system for planning, focus, notes, and calendar flow.
         </h1>
         <p className="mt-4 text-base text-slate-600 md:text-lg">
-          Choose a function page to get started. Task Planner is now one module in
-          this web app.
+          Start from the hub dashboard, then move into task management, daily planning,
+          scheduling, reminders, notes, and focus workflows.
         </p>
       </header>
 
       <section className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-        {functionCards.map((card) => {
+        {hubModules.map((card) => {
           const content = (
             <article className="h-full rounded-3xl bg-white p-5 shadow-sm ring-1 ring-slate-200 transition hover:-translate-y-1 hover:shadow-lg">
               <div className={`h-2 rounded-full bg-gradient-to-r ${card.tone}`} />
               <h2 className="mt-5 text-2xl font-bold text-slate-900">{card.title}</h2>
               <p className="mt-2 text-sm text-slate-600">{card.description}</p>
               <p className="mt-6 text-sm font-semibold text-sky-700">
-                {card.to === '#' ? 'Coming soon' : 'Open module'}
+                Open module
               </p>
             </article>
           )
-
-          if (card.to === '#') {
-            return (
-              <div key={card.title} className="cursor-not-allowed opacity-80">
-                {content}
-              </div>
-            )
-          }
 
           return (
             <Link key={card.title} to={card.to}>

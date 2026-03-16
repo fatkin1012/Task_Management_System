@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react'
-import { Outlet } from 'react-router-dom'
+import { useEffect, useMemo, useState } from 'react'
+import { Outlet, useLocation } from 'react-router-dom'
 
 import { useTaskStore } from '../../store/taskStore'
 import { LeftSidebar } from './LeftSidebar'
@@ -7,12 +7,22 @@ import { TaskDetailDrawer } from './TaskDetailDrawer'
 import { TaskDetailPanel } from './TaskDetailPanel'
 
 export function AppShell() {
+  const location = useLocation()
   const loadTasks = useTaskStore((state) => state.loadTasks)
   const persistTasks = useTaskStore((state) => state.persistTasks)
   const tasks = useTaskStore((state) => state.tasks)
   const isLoaded = useTaskStore((state) => state.isLoaded)
   const selectedTaskId = useTaskStore((state) => state.selectedTaskId)
   const [isDetailCollapsed, setIsDetailCollapsed] = useState(true)
+
+  const showTaskInspector = useMemo(
+    () =>
+      location.pathname.startsWith('/hub/tasks') ||
+      location.pathname.startsWith('/hub/today') ||
+      location.pathname.startsWith('/hub/projects') ||
+      location.pathname.startsWith('/task-planner'),
+    [location.pathname],
+  )
 
   useEffect(() => {
     void loadTasks()
@@ -39,7 +49,7 @@ export function AppShell() {
       <main className="min-h-[calc(100svh-2rem)] flex-1 space-y-4 rounded-3xl bg-slate-100/80 p-4">
         <Outlet />
       </main>
-      <div className="hidden items-stretch xl:flex">
+      <div className={`hidden items-stretch xl:flex ${showTaskInspector ? '' : 'pointer-events-none opacity-0'}`}>
         <button
           type="button"
           onClick={() => setIsDetailCollapsed((collapsed) => !collapsed)}
@@ -51,13 +61,13 @@ export function AppShell() {
 
         <div
           className={`overflow-hidden transition-all duration-300 ${
-            isDetailCollapsed ? 'w-0 opacity-0' : 'w-[340px] opacity-100'
+            isDetailCollapsed || !showTaskInspector ? 'w-0 opacity-0' : 'w-[340px] opacity-100'
           }`}
         >
           <TaskDetailPanel />
         </div>
       </div>
-      <TaskDetailDrawer />
+      {showTaskInspector ? <TaskDetailDrawer /> : null}
     </div>
   )
 }

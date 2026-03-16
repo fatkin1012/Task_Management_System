@@ -1,15 +1,19 @@
 import { create } from 'zustand'
 import { formatISO } from 'date-fns'
 
+import {
+  buildDuplicatedTask,
+  buildTaskFromFormInput,
+  moveTaskInCollection,
+  removeTaskFromCollection,
+  resequenceTasks,
+  type TaskUpdatePatch,
+  toggleTaskCompletionInCollection,
+  updateTaskCollection,
+} from '../features/tasks/domain/taskDomainService'
 import { taskRepository } from '../services/localStorageTaskRepository'
 import type { Task, TaskFilters, TaskSortKey, TaskStatus } from '../types'
 import type { NormalizedTaskFormValues } from '../lib/validation/taskFormSchema'
-
-type TaskUpdatePatch = Partial<
-  NormalizedTaskFormValues & {
-    linkedCalendarEventId: string | null
-  }
->
 
 interface TaskState {
   tasks: Task[]
@@ -25,6 +29,7 @@ interface TaskState {
   setSortKey: (key: TaskSortKey) => void
   updateFilters: (patch: Partial<TaskFilters>) => void
   addTask: (input: NormalizedTaskFormValues) => void
+  duplicateTask: (taskId: string) => void
   updateTask: (taskId: string, patch: TaskUpdatePatch) => void
   deleteTask: (taskId: string) => void
   toggleTaskCompletion: (taskId: string) => void
@@ -33,6 +38,7 @@ interface TaskState {
 
 const defaultFilters: TaskFilters = {
   preset: 'inbox',
+  statuses: [],
   priorities: [],
   categories: [],
   tags: [],
@@ -65,106 +71,52 @@ export const useTaskStore = create<TaskState>((set, get) => ({
     set((state) => ({ filters: { ...state.filters, ...patch } })),
   addTask: (input) => {
     const nowIso = formatISO(new Date())
-    const taskId =
-      typeof crypto !== 'undefined' && crypto.randomUUID
-        ? crypto.randomUUID()
-        : `task-${Date.now()}`
-
-    const newTask: Task = {
-      id: taskId,
-      title: input.title,
-      description: input.description,
-      status: input.status,
-      priority: input.priority,
-      dueDate: input.dueDate,
-      dueTime: input.dueTime,
-      estimatedDurationMinutes: input.estimatedDurationMinutes,
-      category: input.category,
-      tags: input.tags,
-      subtasks: [],
-      reminder: input.reminder,
-      pinned: input.pinned,
-      createdAt: nowIso,
-      updatedAt: nowIso,
-      linkedCalendarEventId: null,
-    }
+    const newTask = buildTaskFromFormInput(input, nowIso)
 
     set((state) => ({
-      tasks: [newTask, ...state.tasks],
+      tasks: resequenceTasks([newTask, ...state.tasks]),
       selectedTaskId: newTask.id,
     }))
+  },
+  duplicateTask: (taskId) => {
+    const nowIso = formatISO(new Date())
+    set((state) => {
+      const sourceTask = state.tasks.find((task) => task.id === taskId)
+      if (!sourceTask) {
+        return state
+      }
+
+      const duplicatedTask = buildDuplicatedTask(sourceTask, nowIso)
+
+      return {
+        tasks: resequenceTasks([duplicatedTask, ...state.tasks]),
+        selectedTaskId: duplicatedTask.id,
+      }
+    })
   },
   updateTask: (taskId, patch) => {
     const nowIso = formatISO(new Date())
     set((state) => ({
-      tasks: state.tasks.map((task) =>
-        task.id === taskId
-          ? {
-              ...task,
-              ...patch,
-              updatedAt: nowIso,
-            }
-          : task,
-      ),
+      tasks: updateTaskCollection(state.tasks, taskId, patch, nowIso),
     }))
   },
   deleteTask: (taskId) => {
     set((state) => ({
-      tasks: state.tasks.filter((task) => task.id !== taskId),
+      tasks: removeTaskFromCollection(state.tasks, taskId),
       selectedTaskId: state.selectedTaskId === taskId ? null : state.selectedTaskId,
     }))
   },
   toggleTaskCompletion: (taskId) => {
     const nowIso = formatISO(new Date())
     set((state) => ({
-      tasks: state.tasks.map((task) => {
-        if (task.id !== taskId) {
-          return task
-        }
-
-        const isDone = task.status === 'done'
-        return {
-          ...task,
-          status: isDone ? 'todo' : 'done',
-          updatedAt: nowIso,
-        }
-      }),
+      tasks: toggleTaskCompletionInCollection(state.tasks, taskId, nowIso),
     }))
   },
   moveTask: (taskId, nextStatus, overTaskId) => {
     const nowIso = formatISO(new Date())
     set((state) => {
-      const fromIndex = state.tasks.findIndex((task) => task.id === taskId)
-      if (fromIndex < 0) {
-        return state
-      }
-
-      const movingTask = state.tasks[fromIndex]
-      const remaining = state.tasks.filter((task) => task.id !== taskId)
-
-      const updatedTask: Task = {
-        ...movingTask,
-        status: nextStatus,
-        updatedAt: nowIso,
-      }
-
-      let targetIndex = remaining.length
-
-      if (overTaskId) {
-        const overIndex = remaining.findIndex((task) => task.id === overTaskId)
-        if (overIndex >= 0) {
-          targetIndex = overIndex
-        }
-      } else {
-        const lastSameStatusIndex = remaining.reduce(
-          (lastIndex, task, index) => (task.status === nextStatus ? index : lastIndex),
-          -1,
-        )
-        targetIndex = lastSameStatusIndex >= 0 ? lastSameStatusIndex + 1 : remaining.length
-      }
-
-      remaining.splice(targetIndex, 0, updatedTask)
-      return { tasks: remaining }
+      const nextTasks = moveTaskInCollection(state.tasks, taskId, nextStatus, nowIso, overTaskId)
+      return { tasks: nextTasks }
     })
   },
 }))

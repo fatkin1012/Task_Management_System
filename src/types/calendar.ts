@@ -6,7 +6,9 @@ export interface CalendarEvent {
   description?: string
   start: string
   end: string
-  source: 'google' | 'task-planner'
+  location?: string
+  attendees?: string[]
+  source: 'google' | 'task-planner' | 'mock'
 }
 
 export interface FreeBusySlot {
@@ -30,4 +32,11 @@ export interface CalendarConnectionState {
 export interface MapTaskToEventInput {
   task: Task
   preferredStart?: string
+}
+
+export interface PlannerViewState {
+  range: 'day' | 'week'
+  selectedDate: string
+  showTasks: boolean
+  showEvents: boolean
 }

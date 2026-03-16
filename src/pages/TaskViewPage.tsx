@@ -5,10 +5,13 @@ import { MobilePlannerNav } from '../components/layout/MobilePlannerNav'
 import { DashboardSummary } from '../components/dashboard/DashboardSummary'
 import { TaskListView } from '../components/tasks/TaskListView'
 import { TaskBoardView } from '../components/tasks/TaskBoardView'
+import { GroupedTaskListView } from '../components/tasks/GroupedTaskListView'
+import { QuickCapturePanel } from '../components/tasks/QuickCapturePanel'
 import { TodayEventsPanel } from '../components/calendar/TodayEventsPanel'
 import { AddTaskModal } from '../components/tasks/AddTaskModal'
 import { useDashboardStats } from '../hooks/useDashboardStats'
 import { useFilteredTasks } from '../hooks/useFilteredTasks'
+import { useTaskGroups } from '../hooks/useTaskGroups'
 import { useTaskStore } from '../store/taskStore'
 import { useUiStore } from '../store/uiStore'
 import type { TaskFilterPreset } from '../types'
@@ -21,12 +24,15 @@ interface TaskViewPageProps {
 export function TaskViewPage({ title, preset }: TaskViewPageProps) {
   const stats = useDashboardStats()
   const filteredTasks = useFilteredTasks()
+  const taskGroups = useTaskGroups(filteredTasks)
   const setSelectedTaskId = useTaskStore((state) => state.setSelectedTaskId)
   const updateFilters = useTaskStore((state) => state.updateFilters)
   const toggleTaskCompletion = useTaskStore((state) => state.toggleTaskCompletion)
   const deleteTask = useTaskStore((state) => state.deleteTask)
+  const duplicateTask = useTaskStore((state) => state.duplicateTask)
   const moveTask = useTaskStore((state) => state.moveTask)
   const currentViewMode = useUiStore((state) => state.currentViewMode)
+  const taskGroupBy = useUiStore((state) => state.taskGroupBy)
   const setTaskDrawerOpen = useUiStore((state) => state.setTaskDrawerOpen)
 
   useEffect(() => {
@@ -47,6 +53,7 @@ export function TaskViewPage({ title, preset }: TaskViewPageProps) {
     <div className="space-y-4">
       <MobilePlannerNav />
       <HeaderBar title={title} preset={preset} />
+      <QuickCapturePanel />
       <DashboardSummary {...stats} />
       <div
         className={`grid gap-4 ${
@@ -54,12 +61,22 @@ export function TaskViewPage({ title, preset }: TaskViewPageProps) {
         }`}
       >
         <section>
-          {currentViewMode === 'list' && (
+          {currentViewMode === 'list' && taskGroupBy === 'none' && (
             <TaskListView
               tasks={filteredTasks}
               onSelectTask={handleSelectTask}
               onToggleTask={toggleTaskCompletion}
               onDeleteTask={handleDeleteTask}
+              onDuplicateTask={duplicateTask}
+            />
+          )}
+          {currentViewMode === 'list' && taskGroupBy !== 'none' && (
+            <GroupedTaskListView
+              groups={taskGroups}
+              onSelectTask={handleSelectTask}
+              onToggleTask={toggleTaskCompletion}
+              onDeleteTask={handleDeleteTask}
+              onDuplicateTask={duplicateTask}
             />
           )}
           {currentViewMode === 'board' && (

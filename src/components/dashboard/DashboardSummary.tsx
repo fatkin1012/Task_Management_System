@@ -1,4 +1,6 @@
-import { useState } from 'react'
+import { DistributionCard } from './DistributionCard'
+import { MetricCard } from './MetricCard'
+import { ProductivitySummaryPanel } from './ProductivitySummaryPanel'
 
 interface DashboardSummaryProps {
   dueTodayCount: number
@@ -8,78 +10,64 @@ interface DashboardSummaryProps {
   totalTaskCount: number
   doneTaskCount: number
   urgentTaskCount: number
+  blockedTaskCount: number
+  inboxTaskCount: number
   completionRate: number
   nextFreeTimeSuggestion: string | null
+  focusTimeTodayMinutes?: number
+  workloadMinutesToday?: number
+  workloadByCategory?: Array<{ label: string; value: number }>
+  priorityDistribution?: Array<{ label: string; value: number }>
 }
 
 export function DashboardSummary(props: DashboardSummaryProps) {
-  const [showMore, setShowMore] = useState(false)
-
-  const primaryItems = [
-    { label: 'Due today', value: props.dueTodayCount },
-    { label: 'Overdue', value: props.overdueCount },
-    { label: 'Completed today', value: props.completedTodayCount },
-    { label: 'Upcoming', value: props.upcomingCount },
-  ]
-
-  const secondaryItems = [
-    { label: 'Total tasks', value: props.totalTaskCount },
-    { label: 'Done tasks', value: props.doneTaskCount },
-    { label: 'Urgent open', value: props.urgentTaskCount },
+  const topRow = [
+    { label: 'Due today', value: props.dueTodayCount, tone: 'neutral' as const },
+    { label: 'Overdue', value: props.overdueCount, tone: 'danger' as const },
+    { label: 'Completed today', value: props.completedTodayCount, tone: 'success' as const },
+    { label: 'Upcoming', value: props.upcomingCount, tone: 'neutral' as const },
+    { label: 'Blocked', value: props.blockedTaskCount, tone: 'warning' as const },
+    { label: 'Inbox', value: props.inboxTaskCount, tone: 'neutral' as const },
   ]
 
   return (
     <section className="space-y-3">
-      <div className="grid gap-3 md:grid-cols-4">
-        {primaryItems.map((item) => (
-          <article key={item.label} className="rounded-2xl bg-white p-4 shadow-sm ring-1 ring-slate-200">
-            <p className="text-xs uppercase tracking-wider text-slate-500">{item.label}</p>
-            <p className="mt-2 text-2xl font-semibold text-slate-900">{item.value}</p>
-          </article>
+      <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-6">
+        {topRow.map((item) => (
+          <MetricCard key={item.label} label={item.label} value={item.value} tone={item.tone} />
         ))}
       </div>
 
-      <div className="grid gap-3 md:grid-cols-2">
-        <article className="rounded-2xl bg-white p-4 shadow-sm ring-1 ring-slate-200">
-          <div className="flex items-center justify-between gap-2">
-            <p className="text-xs uppercase tracking-wider text-slate-500">Completion progress</p>
-            <button
-              type="button"
-              onClick={() => setShowMore((open) => !open)}
-              className="text-xs font-medium text-sky-700"
-            >
-              {showMore ? 'Hide details' : 'See details'}
-            </button>
-          </div>
-          <div className="mt-3 h-2 w-full rounded-full bg-slate-100">
-            <div
-              className="h-2 rounded-full bg-emerald-500 transition-all"
-              style={{ width: `${props.completionRate}%` }}
-            />
-          </div>
-          <p className="mt-2 text-sm text-slate-600">
-            {props.doneTaskCount} of {props.totalTaskCount} tasks complete ({props.completionRate}%)
-          </p>
-        </article>
-
-        <article className="rounded-2xl bg-white p-4 shadow-sm ring-1 ring-slate-200">
-          <p className="text-xs uppercase tracking-wider text-slate-500">Scheduling tip</p>
-          <p className="mt-2 text-sm text-sky-900">
-            Next free time suggestion: {props.nextFreeTimeSuggestion ?? 'No suggestion available'}
-          </p>
-        </article>
+      <div className="grid gap-3 xl:grid-cols-[1.2fr_0.8fr]">
+        <ProductivitySummaryPanel
+          completionRate={props.completionRate}
+          nextFreeTimeSuggestion={props.nextFreeTimeSuggestion}
+          focusTimeTodayMinutes={props.focusTimeTodayMinutes}
+          workloadMinutesToday={props.workloadMinutesToday}
+        />
+        <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-1">
+          <MetricCard
+            label="Open work"
+            value={props.totalTaskCount - props.doneTaskCount}
+            hint={`${props.doneTaskCount} of ${props.totalTaskCount} completed`}
+          />
+          <MetricCard
+            label="Urgent open"
+            value={props.urgentTaskCount}
+            tone={props.urgentTaskCount > 0 ? 'danger' : 'success'}
+            hint="High-priority tasks still active"
+          />
+        </div>
       </div>
 
-      {showMore ? (
-        <div className="grid gap-3 md:grid-cols-3">
-          {secondaryItems.map((item) => (
-            <article key={item.label} className="rounded-2xl bg-white p-4 shadow-sm ring-1 ring-slate-200">
-              <p className="text-xs uppercase tracking-wider text-slate-500">{item.label}</p>
-              <p className="mt-2 text-2xl font-semibold text-slate-900">{item.value}</p>
-            </article>
-          ))}
-        </div>
-      ) : null}
+      <div className="grid gap-3 xl:grid-cols-2">
+        <DistributionCard
+          title="Workload by category"
+          items={props.workloadByCategory ?? []}
+          formatValue={(value) => `${value} min`}
+        />
+        <DistributionCard title="Priority distribution" items={props.priorityDistribution ?? []} />
+      </div>
     </section>
   )
 }

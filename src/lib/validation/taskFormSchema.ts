@@ -2,7 +2,13 @@ import { z } from 'zod'
 
 import type { TaskPriority, TaskStatus } from '../../types'
 
-export const taskStatusOptions: TaskStatus[] = ['todo', 'in_progress', 'waiting', 'done']
+export const taskStatusOptions: TaskStatus[] = [
+  'todo',
+  'in_progress',
+  'waiting',
+  'blocked',
+  'done',
+]
 export const taskPriorityOptions: TaskPriority[] = ['low', 'medium', 'high', 'urgent']
 
 const toNullableString = (value: string | undefined) => {
@@ -22,6 +28,7 @@ export const taskFormSchema = z.object({
   dueTime: z.string().optional(),
   estimatedDurationMinutes: z.number().int().min(0).max(1440),
   category: z.string().trim().min(1, 'Category is required').max(80),
+  projectId: z.string().trim().max(80).optional(),
   tags: z.string().optional(),
   reminder: z.string().optional(),
   pinned: z.boolean().default(false),
@@ -38,6 +45,7 @@ export interface NormalizedTaskFormValues {
   dueTime: string | null
   estimatedDurationMinutes: number
   category: string
+  projectId: string | null
   tags: string[]
   reminder: string | null
   pinned: boolean
@@ -62,6 +70,7 @@ export const normalizeTaskFormValues = (
     dueTime: toNullableString(values.dueTime),
     estimatedDurationMinutes: values.estimatedDurationMinutes,
     category: values.category.trim(),
+    projectId: toNullableString(values.projectId),
     tags: Array.from(tagSet),
     reminder: toNullableString(values.reminder),
     pinned: Boolean(values.pinned),

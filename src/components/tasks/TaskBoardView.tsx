@@ -30,6 +30,7 @@ const columns: { status: TaskStatus; label: string }[] = [
   { status: 'todo', label: 'To do' },
   { status: 'in_progress', label: 'In progress' },
   { status: 'waiting', label: 'Waiting' },
+  { status: 'blocked', label: 'Blocked' },
   { status: 'done', label: 'Done' },
 ]
 
@@ -153,6 +154,7 @@ export function TaskBoardView({
     todo: tasks.filter((task) => task.status === 'todo'),
     in_progress: tasks.filter((task) => task.status === 'in_progress'),
     waiting: tasks.filter((task) => task.status === 'waiting'),
+    blocked: tasks.filter((task) => task.status === 'blocked'),
     done: tasks.filter((task) => task.status === 'done'),
   }
 

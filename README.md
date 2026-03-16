@@ -38,9 +38,9 @@ Night Mode Journal: two-minute end-of-day journal with mood emoji, three wins, o
 Freelance Micro-Gigs: short, fixed-scope gigs for freelancers (logo tweak, 500-word edit). Standardized pricing tiers, quick escrow, templates for briefs, fast-turnaround onboarding for repeat clients.
 
 
-# Task Planner
+# Task Planner Hub
 
-A modular productivity web app built with Vite + React + TypeScript.
+A modular productivity hub built with Vite + React + TypeScript.
 
 ## Run locally
 
@@ -56,19 +56,66 @@ npm run build
 npm run preview
 ```
 
+## Phase 1 architecture
+
+- Modular app shell with shared navigation
+- Hub routes for dashboard, tasks, today, calendar, projects, notes, reminders, and focus
+- Shared TypeScript models for task, project, note, reminder, planner, focus, and dashboard domains
+- Existing task planner preserved as the first functional module under the hub shell
+
+## Folder direction
+
+```text
+src/
+  app/
+  components/
+    calendar/
+    dashboard/
+    layout/
+    tasks/
+    ui/
+  data/
+  hooks/
+  lib/
+  pages/
+  services/
+  store/
+  styles/
+  types/
+```
+
 ## Implemented modules
 
 - Home page with function navigation
-- Task Planner module with:
+- Task Planner Hub shell with:
+  - dashboard route
+  - task manager route
+  - today focus route
+  - calendar route scaffold
+  - notes route scaffold
+  - reminder route scaffold
+  - focus route scaffold
+- Task manager module with:
   - dashboard summary
   - list view
   - board view (drag-and-drop)
   - task detail panel/drawer
   - add/edit/delete/toggle task CRUD
   - localStorage persistence
-- Google Calendar integration architecture (Phase 4)
+- Google Calendar integration architecture with mock fallback
 
-## Google Calendar integration (Phase 4)
+## Install
+
+```bash
+npm install
+npm run dev
+```
+
+Optional dependencies already prepared in `package.json` for future analytics work:
+
+- `recharts` for dashboard charts
+
+## Google Calendar integration
 
 The app uses a service abstraction in `src/services/googleCalendarService.ts`.
 

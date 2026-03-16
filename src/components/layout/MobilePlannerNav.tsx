@@ -1,11 +1,11 @@
 import { NavLink } from 'react-router-dom'
 
 const mobileNavItems = [
-  { label: 'Inbox', to: '/task-planner' },
-  { label: 'Today', to: '/task-planner/today' },
-  { label: 'Upcoming', to: '/task-planner/upcoming' },
-  { label: 'Overdue', to: '/task-planner/overdue' },
-  { label: 'Done', to: '/task-planner/completed' },
+  { label: 'Inbox', to: '/hub/tasks' },
+  { label: 'Today', to: '/hub/today' },
+  { label: 'Upcoming', to: '/hub/tasks/upcoming' },
+  { label: 'Overdue', to: '/hub/tasks/overdue' },
+  { label: 'Done', to: '/hub/tasks/completed' },
 ]
 
 export function MobilePlannerNav() {

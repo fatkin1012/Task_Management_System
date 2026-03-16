@@ -1,4 +1,4 @@
-export type TaskStatus = 'todo' | 'in_progress' | 'waiting' | 'done'
+export type TaskStatus = 'todo' | 'in_progress' | 'waiting' | 'blocked' | 'done'
 
 export type TaskPriority = 'low' | 'medium' | 'high' | 'urgent'
 
@@ -6,6 +6,13 @@ export interface Subtask {
   id: string
   title: string
   completed: boolean
+  estimatedDurationMinutes?: number
+}
+
+export interface RecurringRule {
+  frequency: 'daily' | 'weekly' | 'monthly'
+  interval?: number
+  daysOfWeek?: number[]
 }
 
 export interface Task {
@@ -18,13 +25,17 @@ export interface Task {
   dueTime: string | null
   estimatedDurationMinutes: number
   category: string
+  projectId?: string | null
   tags: string[]
   subtasks: Subtask[]
   reminder: string | null
   pinned: boolean
+  recurringRule?: RecurringRule | null
   createdAt: string
   updatedAt: string
   linkedCalendarEventId: string | null
+  notesId?: string | null
+  order?: number
 }
 
 export type TaskSortKey =
@@ -42,10 +53,13 @@ export type TaskFilterPreset =
   | 'completed'
   | 'incomplete'
 
-export type TaskViewMode = 'list' | 'board' | 'calendar'
+export type TaskViewMode = 'list' | 'board' | 'calendar' | 'planner'
+
+export type TaskGroupBy = 'none' | 'category' | 'project'
 
 export interface TaskFilters {
   preset: TaskFilterPreset
+  statuses: TaskStatus[]
   priorities: TaskPriority[]
   categories: string[]
   tags: string[]
